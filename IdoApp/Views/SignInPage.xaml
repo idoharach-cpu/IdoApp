@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IdoApp.Views.SignInPage"
+             Title="SignInPage">
+    
+    <VerticalStackLayout
+        
+        Padding="30"
+        Spacing="20"
+        VerticalOptions="Center">
+
+        <Label
+            FontAttributes="Bold"
+            FontSize="25"
+            VerticalOptions="Center"
+            Text="Sign In"
+            TextColor="Snow"/>
+
+        <Border 
+            Padding="10"
+            Stroke="#ccc"
+            StrokeShape="RoundRectangle 8"
+            StrokeThickness="1">
+
+            <Entry
+                Keyboard="Email"
+                FontSize="18"
+                Placeholder="Email"
+                TextColor="Wheat"
+                ReturnType="Go"/>
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>
