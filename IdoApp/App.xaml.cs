@@ -1,4 +1,6 @@
-﻿namespace IdoApp
+﻿using IdoApp.Views;
+
+namespace IdoApp
 {
     public partial class App : Application
     {
