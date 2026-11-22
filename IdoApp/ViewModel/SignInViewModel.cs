@@ -131,7 +131,7 @@ namespace IdoApp.ViewModels
 
             SignInCommand = new Command(OnSignInButtonClicked, CanSignIn);
 
-            TogglePasswordButtonText = FontHelper.CLOSED_EYE_ICON;
+            TogglePasswordButtonText = FontHelper.OPEN_EYE_ICON;
 
             EntryAsPassword = true;
             _dBMokup = new DBMokup();

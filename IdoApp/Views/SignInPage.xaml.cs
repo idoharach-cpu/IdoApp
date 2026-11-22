@@ -1,5 +1,5 @@
 using IdoApp.Helpers;
-using IdoApp.Services;
+using IdoApp.Service;
 using IdoApp.ViewModels;
 
 namespace IdoApp.Views;
