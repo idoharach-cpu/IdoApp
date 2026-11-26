@@ -13,7 +13,9 @@ namespace IdoApp
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    #region Custom Fonts
                     fonts.AddFont("MaterialIcons-Regular.ttf", "MaterialIcons");
+                    #endregion
                 });
 
 #if DEBUG
